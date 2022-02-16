@@ -684,8 +684,10 @@ img {
   position: absolute;
   right: auto;
   z-index: 300;
-  width: 500px;
+  width: 600px;
   margin-top: 40px;
+  margin-right: 20px;
+  margin-bottom: 40px;
 }
 
 .feature {
@@ -2455,7 +2457,7 @@ img {
   }
 
   .hero-phone {
-    width: 360px;
+    width: 500px;
   }
 
   .main-grid {
@@ -3007,7 +3009,7 @@ img {
 
 @media screen and (max-width: 479px) {
   .logo-icon {
-    height: 39px;
+    height: 50px;
   }
 
   .h4 {
@@ -3083,6 +3085,8 @@ img {
   }
 
   .small-container {
+    margin-top: -50px;
+    padding-top: 0px;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -3097,7 +3101,8 @@ img {
   .hero-image {
     max-width: 320px;
     min-height: 340px;
-    margin-top: 0px;
+    margin-top: -50px;
+    margin-bottom: -50px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -3109,10 +3114,10 @@ img {
     top: 0%;
     right: auto;
     bottom: 0%;
-    width: 240px;
+    width: 300px;
     margin-top: 87px;
     margin-right: 0px;
-    margin-left: 20px;
+    margin-left: 0px;
   }
 
   .main-grid {
@@ -3174,6 +3179,12 @@ img {
     margin-right: 0px;
     margin-left: 0px;
     box-shadow: 0 4px 10px 0 rgba(55, 68, 111, 0.14);
+  }
+
+  .text.small-title {
+    text-align: center;
+    -o-object-fit: fill;
+    object-fit: fill;
   }
 
   .h5 {
@@ -3281,6 +3292,7 @@ img {
 
   .image-section {
     max-width: 300px;
+    margin-top: 20px;
   }
 
   .rich-text-block h2 {
